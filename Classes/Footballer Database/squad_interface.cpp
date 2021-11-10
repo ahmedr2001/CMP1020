@@ -19,7 +19,8 @@ int main()
 {
     Database footballerDB;
     string myClub;
-
+    freopen("output.txt", "w", stdout);
+    freopen("input.in", "r", stdin);
     cout << "Enter your club: ";
     cin >> myClub;
     string position;
